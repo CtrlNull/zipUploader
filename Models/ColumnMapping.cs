@@ -2,14 +2,7 @@ using System.Collections.Generic;
 
 namespace zipUploader.Models
 {
-    public class CsvmapReturn
-    {
-        public string ListCreator { get; set; }
-        public List<string> FieldMap { get; set; }
-        public string ListAdd { get; set; }
-    }
-
-    public class LumnenColumnReturn
+    public class MapperReturn
     {
         public string ListCreator { get; set; }
         public List<string> FieldMap { get; set; }
