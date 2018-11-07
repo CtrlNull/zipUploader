@@ -33,7 +33,7 @@ namespace zipUploader.Services
         {
           ListCreator = "List<CsvFieldMap> " + dboDetails.TableNameMap + " = new List<CsvFieldMap>();",
           FieldMap = fieldMap,
-          ListAdd = "list.Add(new CsvDataSource('" + dboDetails.TableNameMap + "', " + dboDetails.TableNameMap + "));"
+          ListAdd = "list.Add(new CsvDataSource('" + dboDetails.TableName + "', " + dboDetails.TableNameMap + "));"
         };
       }
       return csv;

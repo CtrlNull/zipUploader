@@ -16,6 +16,7 @@ namespace zipUploader.Controllers
         [HttpPost]
         public MapperReturn Post(string path, string tableName) {
             DataBaseTableDetails tableDetails = new DataBaseTableDetails() {
+                TableName = tableName;
                 TableNameDbo = "Load_" + tableName;
                 TableNameCol = tableName + "Col";
                 TableNameMap = tableName + "Map";
