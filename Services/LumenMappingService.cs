@@ -7,7 +7,7 @@ namespace zipUploader.Services
 {
   public class LumenMappingService
   {
-    public MapperReturn LumensPost(SqlConnection cn, DataBaseTableDetails dboDetails)
+    public static MapperReturn LumensPost(SqlConnection cn, DataBaseTableDetails dboDetails)
     {
       List<TableDetails> tableDetails = new List<TableDetails>();
       List<string> fieldMap = new List<string>();
@@ -39,7 +39,7 @@ namespace zipUploader.Services
       return csv;
     }
 
-    public string ReturnType(string type)
+    public static string ReturnType(string type)
     {
       switch (type)
       {

@@ -7,7 +7,7 @@ namespace zipUploader.Services
 {
   public class CsvMappingService
   {
-    public MapperReturn CsvPost(SqlConnection cn, DataBaseTableDetails dboDetails)
+    public static MapperReturn CsvPost(SqlConnection cn, DataBaseTableDetails dboDetails)
     {
       List<TableDetails> tableDetails = new List<TableDetails>();
       List<string> fieldMap = new List<string>();

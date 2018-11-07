@@ -1,0 +1,14 @@
+C:\Users\Ralph_Fonz\repos\zipUploader\obj\Debug\netcoreapp2.1\zipUploader.csprojAssemblyReference.cache
+C:\Users\Ralph_Fonz\repos\zipUploader\obj\Debug\netcoreapp2.1\zipUploader.csproj.CoreCompileInputs.cache
+C:\Users\Ralph_Fonz\repos\zipUploader\obj\Debug\netcoreapp2.1\zipUploader.RazorAssemblyInfo.cache
+C:\Users\Ralph_Fonz\repos\zipUploader\obj\Debug\netcoreapp2.1\zipUploader.RazorAssemblyInfo.cs
+C:\Users\Ralph_Fonz\repos\zipUploader\obj\Debug\netcoreapp2.1\zipUploader.AssemblyInfoInputs.cache
+C:\Users\Ralph_Fonz\repos\zipUploader\obj\Debug\netcoreapp2.1\zipUploader.AssemblyInfo.cs
+C:\Users\Ralph_Fonz\repos\zipUploader\bin\Debug\netcoreapp2.1\zipUploader.deps.json
+C:\Users\Ralph_Fonz\repos\zipUploader\bin\Debug\netcoreapp2.1\zipUploader.runtimeconfig.json
+C:\Users\Ralph_Fonz\repos\zipUploader\bin\Debug\netcoreapp2.1\zipUploader.runtimeconfig.dev.json
+C:\Users\Ralph_Fonz\repos\zipUploader\bin\Debug\netcoreapp2.1\zipUploader.dll
+C:\Users\Ralph_Fonz\repos\zipUploader\bin\Debug\netcoreapp2.1\zipUploader.pdb
+C:\Users\Ralph_Fonz\repos\zipUploader\obj\Debug\netcoreapp2.1\zipUploader.RazorTargetAssemblyInfo.cache
+C:\Users\Ralph_Fonz\repos\zipUploader\obj\Debug\netcoreapp2.1\zipUploader.dll
+C:\Users\Ralph_Fonz\repos\zipUploader\obj\Debug\netcoreapp2.1\zipUploader.pdb
