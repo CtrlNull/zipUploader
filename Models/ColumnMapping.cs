@@ -16,4 +16,11 @@ namespace zipUploader.Models
 
         public string Type { get; set; }
     }
+
+    public class DataBaseTableDetails
+    {
+        public string TableNameDbo { get; set; }
+        public string TableNameCol { get; set; }
+        public string TableNameMap { get; set;}
+    }
 }

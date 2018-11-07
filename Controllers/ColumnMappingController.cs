@@ -14,7 +14,28 @@ namespace zipUploader.Controllers
     public class ColumnMappingController : ControllerBase
     {
         [HttpPost]
-        public 
+        public MapperReturn Post(string path, string tableName) {
+            DataBaseTableDetails tableDetails = new DataBaseTableDetails() {
+                TableNameDbo = "Load_" + tableName;
+                TableNameCol = tableName + "Col";
+                TableNameMap = tableName + "Map";
+            }
 
+            SqlConnectionStringBuilder scsb = new SqlConnectionStringBuilder() {
+                // add your connection strings here 
+            };
+            
+            using (SqlConnection cn = new SqlConnection(scsb.ConnectionString)){
+                cn.Open()
+                switch (path) {
+                    case "CSV":
+                    return CsvPost(cn, tableDetails);
+                    break;
+                    case "LUMEN":
+                    return null;
+                    break;
+                }
+            }
+        }
     }
 }
