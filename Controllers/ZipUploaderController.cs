@@ -19,6 +19,10 @@ namespace zipUploader.Controllers
         }
 
         [HttpPost]
-        public ActionResult<
+        public async Task Post() {
+            var files = Request.Form.Files;
+            if (files.Count > 0)
+                return ReadCsv(files[0]);
+        }
     }
 }
